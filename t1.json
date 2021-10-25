@@ -1,0 +1,55 @@
+{
+    "navlist1" : "Home",
+    "navlist2" : "Services",
+    "navlist3" : "Aboutus",
+    "navlist4" : "Gallery",
+    "navlist5" : "Contact Us",
+
+    "mainheading1" : "EMPOWERING GROWTH WITH REAL DATA",
+
+    "ourservices" : "OUR SERVICES",
+    "servicehead1" : "010 / FAST",
+    "servicehead2" : "02 / FAST",
+    "servicehead3" : "03 / FAST",
+    "servicehead4" : "04 / FAST",
+    "servicepara1" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.",
+    "servicepara2" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.",
+    "servicepara3" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.",
+    "servicepara4" : "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.",
+
+    "gallery" : "GALLERY",
+
+    "meetus" : "MEET US",
+    "ourstory" : "OUR STORY",
+    "ourvision" : "OUR VISION",
+    "ourstorytext" : " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro et optio aliquam quam, doloremque quibusdam modi quod laboriosam fugit, ipsam cupiditate dolores eum ullam iusto nisi eaque illo, alias atque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro et optio aliquam quam, doloremque quibusdam modi quod laboriosam fugit, ipsam cupiditate dolores eum ullam iusto nisi eaque illo, alias atque?",
+    "ourvisiontext" : " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro et optio aliquam quam, doloremque quibusdam modi quod laboriosam fugit, ipsam cupiditate dolores eum ullam iusto nisi eaque illo, alias atque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro et optio aliquam quam, doloremque quibusdam modi quod laboriosam fugit, ipsam cupiditate dolores eum ullam iusto nisi eaque illo, alias atque?",
+
+    "image1" : "https://cdn.pixabay.com/photo/2020/11/02/07/51/leaves-5705990_960_720.jpg",
+
+    "image2" : "https://cdn.pixabay.com/photo/2020/03/12/22/26/drops-4926381_960_720.jpg",
+
+    "image3" : "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+
+    "image4" : "https://images.unsplash.com/photo-1633508992172-a8ede31f6fb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+
+    "image5" : "https://images.unsplash.com/photo-1633183481802-9fea1f86174c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+
+    "image6" : "https://images.unsplash.com/photo-1633503739070-36d71901a777?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+
+    "contacthead" :"CONTACT",
+    "contactquote" :"Let’s Work Together",
+    "youraddress" :"500 Terry Francois St. San Francisco, CA 94158",
+
+
+    "yourwhatsapp" : "https://wa.me/2000050009",
+    "yourfacebook" : "https://www.facebook.com",
+    "yourtwitter" : "https://www.twitter.com",
+    "yourinsta" : "https://www.instagram.com",
+    "yourmail" : "mailto:123abc@gmail.comm",
+    "yournumber" : "tel:900001001",
+    
+    "yourmap" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.2684117331396!2d88.39253301491149!3d22.60644988516536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277c260d86657%3A0xb771e5131c31140f!2sAryan%20Oxygen%20Services%20-%20Patipukur%20Branch!5e0!3m2!1sen!2sin!4v1633635681312!5m2!1sen!2sin",
+
+    "yourfooter" : "© www.yoyo.com"
+}

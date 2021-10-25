@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,rgb(95, 55, 18),rgb(37, 127, 134));
+    border-radius: 10px;
+}
+.navbar{
+    font-weight: bold;
+    box-shadow: 0 0 .5rem black;
+    position: fixed !important;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-brand>img{
+    width: 2.5rem;
+}
+/* #offcanvasNavbarLabel{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(15, 65, 15);
+    transition-duration: .3s;
+}
+#offcanvasNavbarLabel:hover{
+    box-shadow: .2rem .2rem .1rem rgb(172, 172, 172);
+
+} */
+.nav-item{
+    transition-duration: .3s;
+}
+.navbar-brand{
+    padding-top:0 !important ;
+    padding-bottom:0 !important;
+}
+/* section 1 */
+.parallax{
+    background-image: url(https://images.unsplash.com/photo-1521141971213-87df73da10a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+}
+.heading{
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    animation-name: head;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes head{
+    from{
+        top: 1%;
+    }
+    to{
+        top: 50%;
+    }
+}
+
+/* seciton2 */
+.section2>h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 5rem;
+    transition-duration: .3s;
+}
+.section2>h1:hover{
+    color: green;
+}
+.ser>h3{
+    text-align: center;
+    color: rgb(48, 141, 29);
+    font-weight: bold;
+}
+.ser>p{
+    font-size: 1.1rem;
+}
+.service{
+    display: grid;
+    gap: 3rem;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+}
+.ser{
+    width: 100%;
+    box-shadow: .2rem .2rem .2rem rgb(190, 190, 190);
+    padding: .5rem;
+    border-radius: 1rem;
+    transition-duration: .5S;
+}
+.ser:hover{
+    box-shadow: -.2rem -.2rem .2rem rgb(190, 190, 190);
+
+}
+.section3{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.section3>h1{
+    text-align: center;
+    font-size: 5rem;
+    transition-duration: .3s;
+}
+.section3>h1:hover{
+    color: green;
+}
+
+.mainslider1> img{
+    width: 50rem;
+    height: 30rem;
+    margin: 1rem 1rem;
+    transition-duration: .3s;
+    border-radius: .5rem;
+}
+.mainslider1>img:hover{
+    box-shadow: 0 0 .8rem rgb(158, 151, 151);
+    width: 50.5rem;
+    height: 30.5rem;
+}
+
+
+/* ?swag */
+.aboutus{
+    background: rgb(231, 255, 110,0.75);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: .5rem; 
+    margin-top: 4rem;
+}
+.about-heading{
+    font-size: 3rem;
+}
+.ourstory img{
+    height: 8rem;
+}
+.ourvision img{
+    height: 8rem;
+}
+.ourstory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+}
+.ourvision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.ourstory p{
+    font-size: 1.2rem;
+    color: rgb(65, 65, 65);
+}
+.ourvision p{
+    color: rgb(65, 65, 65);
+    font-size: 1.2rem;
+}
+
+
+
+.writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+.writing h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+
+}
+
+.about-heading>h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+}
+.sec5{
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15rem;
+}
+.contact>h1{
+    margin: 2rem 0 2rem 0;
+}
+.contact>h4{
+    font-weight: bold;
+    color: rgb(10, 117, 15); 
+}
+.contact>a{
+    text-decoration: none;
+    color: rgb(8, 94, 29);
+    margin: .5rem 0 1.5rem 0;
+    font-weight: bold;
+}
+.faicons{
+    margin: 0 1.5rem 0 0;
+    font-size: 1.2rem;
+    color: rgb(59, 59, 25);
+    transition-duration: .3s;
+}
+.faicons:hover{
+    color: rgb(34, 243, 79); 
+}
+.fas{
+    color: rgb(33, 122, 21);
+}
+.map>iframe{
+    box-shadow: 0 0 .5rem rgb(141, 141, 141);
+    border-radius: 1rem;
+    width: 80%;
+}
+.footer{
+    background-color: black;
+    margin-top: 1.5rem;
+    padding: .2rem;
+}
+.footer>p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width:640px){
+html{
+font-size: 60%;
+}
+.heading{
+    top: -50%;
+    font-size: 4rem;
+}
+.service{
+    width: 94%;
+    grid-template-columns: 1fr;
+}
+.ser{
+    width: 100%;
+}
+.aboutus{
+    margin-top: 6rem;
+}
+@keyframes head{
+    from{
+        top: -50%;
+    }
+    to{
+        top: 20%;
+    }
+}
+.section2>h1{
+    font-size: 4rem;
+}
+.section3>h1{
+    font-size: 4rem;
+}
+.about-heading>h1{
+    font-size: 4rem;
+}
+.contact-heading h1{
+    font-size: 4rem;
+}
+.businesshours{
+    margin-left: 3rem;
+}
+.callus{
+    margin-left: 1rem;
+}
+.parallax{
+    min-height: 40rem;
+}
+.ourstory{
+    padding: 1rem .5rem;
+}
+.ourvision{
+    padding: 1rem .5rem;
+}
+.writing{
+    margin-left: .5rem;
+}
+.sec5{
+    grid-template-columns: 1fr;
+}
+.map>iframe{
+    margin-top: 3rem;
+    width: 100%;
+    height: 30rem;
+    border-radius: 0;
+}
+.contact{
+    padding-left: 5rem;
+}
+}
+
+@media (min-width:641px) and (max-width:1024px){
+    html{
+        font-size: 70%;
+    }
+    .service{
+        width: 95%;
+    }
+
+    @keyframes head{
+        from{
+            top: -50%;
+        }
+        to{
+            top: 20%;
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1500px){
+    html{
+        font-size: 60%;
+    }
+    .contact{
+        padding-left: 8rem;
+    }
+    .aboutchild{
+        width: 80%;
+    }
+}
